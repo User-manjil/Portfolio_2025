@@ -8,7 +8,7 @@ const Portfolio_item = (props) => {
       <div className="image_here"><img src="" alt="" /></div>
       <div className="image_description">
         this is a description of the project
-
+        changing git hub does change in the netlify
       </div>
     </div>
   )
