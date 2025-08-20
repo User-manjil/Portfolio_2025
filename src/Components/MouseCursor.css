@@ -1,0 +1,32 @@
+.MouseCursor{
+    content: '';
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: transparent;
+    pointer-events: none;
+    cursor: none;
+    z-index: 1000;
+    transition: .0s ease;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* transition: .2s ease ; */
+}
+.dot_box::after{
+    content: '';
+   
+    position: fixed;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    pointer-events: none;
+    /* transition: .4s ease all; */
+    z-index: 1000;
+    /* animation-delay: .2s; */
+    
+}

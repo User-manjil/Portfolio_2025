@@ -1,0 +1,47 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: outfit;
+    height: 100vh;
+}
+.text_title{
+    text-align: center;
+    margin: auto;
+    line-height: .9;
+    
+    
+}
+.text_title h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.text_title h1{
+    font-size: 150px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.social_handles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.social_handles ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.social_handles ul li  {
+    font-weight: 200;
+    transition: .3s ease all ;}
+.social_handles ul li:hover  {
+    font-weight: 500;
+}
+.social_handles ul li a {
+    text-decoration: none;
+    color: black;
+}
